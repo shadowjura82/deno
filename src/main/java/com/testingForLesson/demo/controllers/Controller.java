@@ -9,4 +9,9 @@ public class Controller {
     public String getString() {
         return "Software is working";
     }
+
+    @GetMapping("/second")
+    public String getOneMoreString() {
+        return "sdfgsdfgsdfgsdfgsdfgsdfgsdfgsdfgsdfg";
+    }
 }
